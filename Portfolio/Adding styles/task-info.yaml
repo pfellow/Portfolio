@@ -238,6 +238,12 @@ files:
 - name: src/profile picture.JPG
   visible: true
   learner_created: true
+- name: src/main.css
+  visible: true
+  learner_created: true
+- name: src/header.webp
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/732/implement#comment
 status: Unchecked
 record: -1
