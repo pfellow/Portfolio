@@ -252,6 +252,30 @@ files:
         }
     );
   learner_created: false
+- name: src/main.css
+  visible: true
+  learner_created: true
+- name: src/header.webp
+  visible: true
+  learner_created: true
+- name: src/Hypergram.JPG
+  visible: true
+  learner_created: true
+- name: src/profile picture.JPG
+  visible: true
+  learner_created: true
+- name: src/OpenSpace.JPG
+  visible: true
+  learner_created: true
+- name: src/window.html
+  visible: true
+  learner_created: true
+- name: src/main.js
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/733/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 02 Dec 2021 20:56:02 UTC
+record: 4

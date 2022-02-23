@@ -277,6 +277,37 @@ files:
         }
     );
   learner_created: false
+- name: src/main.css
+  visible: true
+  learner_created: true
+- name: src/header.webp
+  visible: true
+  learner_created: true
+- name: src/main.js
+  visible: true
+  learner_created: true
+- name: src/Hypergram.JPG
+  visible: true
+  learner_created: true
+- name: src/window.html
+  visible: true
+  learner_created: true
+- name: src/profile picture.JPG
+  visible: true
+  learner_created: true
+- name: src/OpenSpace.JPG
+  visible: true
+  learner_created: true
+- name: src/menu.png
+  visible: true
+  learner_created: true
+- name: src/menu-opened.png
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/734/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Wed, 23 Feb 2022 17:54:04 UTC
 record: -1

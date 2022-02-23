@@ -244,6 +244,12 @@ files:
 - name: src/header.webp
   visible: true
   learner_created: true
+- name: src/OpenSpace.JPG
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/732/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 29 Nov 2021 18:33:06 UTC
+record: 2

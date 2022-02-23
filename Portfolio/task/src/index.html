@@ -6,37 +6,80 @@
 </head>
 <body>
 <header>
-<nav>
-    <a href="#about" class="nav">About me</a>
-    <a href="#portfolio" class="nav">Portfolio</a>
-    <a href="#contacts" class="nav">Contacts</a>
-    <a href="/" class="home-link">Home</a>
-</nav>
-    <h1>Sergey Shilovskiy,<br>Fullstack developer</h1>
+    <nav class="nav-desktop">
+        <a href="#about" class="nav">About me</a>
+        <a href="#portfolio" class="nav">Portfolio</a>
+        <a href="#contacts" class="nav">Contacts</a>
+     <a href="/" class="home-link">Home</a>
+    </nav>
+    <div class="hamburger-icon"></div>
+    <nav class="hamburger">
+        <a href="#about" class="hamburger-menu-item">About me</a>
+        <a href="#portfolio" class="hamburger-menu-item">Portfolio</a>
+        <a href="#contacts" class="hamburger-menu-item">Contacts</a>
+        <a href="/" class="hamburger-menu-item">Home</a>
+    </nav>
+    <div class="me">
+        <h1>Sergey Shilovskiy,<br>Fullstack developer</h1>
+    </div>
 </header>
 <section id="about">
-    <h2>About me</h2>
     <img src="profile%20picture.JPG" alt="Profile picture">
-    <p>
-        Hi! I'm Sergey Shilovskiy. I have worked as an IT project manager/product owner for several years.
-        <br>
-        Programming is my hobby. I completed several project at Hyperskill.
-        <br>
-        <b>Skills: </b> HTML, CSS, JS, React, Node.js
-    </p>
+    <div class="about-me">
+        <h2>About me</h2>
+        <p>
+            Hi! I'm Sergey Shilovskiy. I have worked as an IT project manager/product owner for several years.
+            <br>
+            Programming is my hobby. I completed several project at Hyperskill.
+            <br>
+            <b>Skills: </b> HTML, CSS, JS, React, Node.js
+        </p>
+    </div>
 </section>
 <section id="portfolio">
     <h2>Portfolio</h2>
-    <img src="Hypergram.JPG" alt="Profile picture">
-    <p>Hypergram (change brightness, contrast, and transparency of a picture)</p>
+    <div class="projects">
+        <div class="project">
+            <img src="Hypergram.JPG" alt="Hypergram project">
+            <p>Hypergram (change brightness, contrast, and transparency of a picture)</p>
+            <button class="open-window">See more</button>
+            <div class="window">
+                <h2>Hypergram</h2>
+                <p>Change brightness, contrast, and transparency of a picture</p>
+                <button class="close">Close</button>
+            </div>
+        </div>
+        <div  class="project">
+            <img src="OpenSpace.JPG" alt="Open Space project">
+            <p>Open Space (unlock levers with password, launch the rocket!)</p>
+            <button class="open-window">See more</button>
+            <div class="window">
+                <h2>Open Space</h2>
+                <p>Unlock levers with password, launch the rocket!</p>
+                <button class="close">Close</button>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="contacts">
     <h2>Contacts</h2>
-    <p>You can contact me by messengers (Telegram, WhatsApp, iMessage), by <a href="mailto:admin@ogo.gl">e-mail</a> or by phone <a href="tel:+19997775555">+1 (999) 777-55-55</a></p>.
+    <p>You can contact me by messengers (Telegram, WhatsApp, iMessage),<br>by <a href="mailto:admin@ogo.gl">e-mail</a><br> or by phone <a href="tel:+19997775555">+1 (999) 777-55-55</a></p>
+    <div class="icons">
+        <img src="icons/github.png">
+        <img src="icons/facebook.png">
+        <img src="icons/instagram.png">
+        <img src="icons/twitter.png">
+    </div>
+
 </section>
 <footer>
-    Sergey Shilovskiy, 2021
+    <div class="footer-data">
+        <p>Sergey Shilovskiy, 2021</p>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+
 </footer>
 <link href="main.css" rel="stylesheet">
+<script src="main.js"></script>
 </body>
 </html>
